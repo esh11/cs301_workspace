@@ -29,4 +29,3 @@ let fastest = (220 - age)*.85;
 console.log(`the slowest rate necessary to strength your heart is ${lowest}.`);
 console.log(`the fastest rates necessary to strength your heart is ${fastest}.`);
 
-
