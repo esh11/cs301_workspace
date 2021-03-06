@@ -1,23 +1,23 @@
-
+"use strict";
 /**
  * 
- * @param {number} n number to be tested if prime
- * @return {boolean} 
+ * @param {number} num number to be tested if prime
+ * @return {boolean} return boolean
  */
-function checkPrime(n){
-    for(let i=2; i<n;i++){
-        if(n%i===0) return false;
+function checkPrime(num){
+    for(let i=2; i<num;i++){
+        if(num%i===0) return false;
     }
     return true;
 }
 
 /**
  * 
- * @param {number} n number to be test if odd
- * @return {boolean} 
+ * @param {number} num number to be test if odd
+ * @return {boolean} return boolean
  */
-function isOdd(n){
-    return n%2!==0;
+function isOdd(num){
+    return num%2!==0;
 }
 
 module.exports = {checkPrime, isOdd};
